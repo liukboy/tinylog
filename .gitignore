@@ -11,6 +11,8 @@
 # Unignore all dirs
 !*/
 
+# Unignore all dirs
+build/
 # Prerequisites
 *.d
 
