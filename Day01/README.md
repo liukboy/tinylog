@@ -31,7 +31,3 @@ int main()
 ```
 输出结果
 ![](https://cdn.jsdelivr.net/gh/liukboy/PicBed@main/img/WX20231030-222534@2x.png)
-
-整个代码是很简陋的，但是整体流程就是这样
-日志是放在一个Log中的string，然后把日期，时间，日志级别，日志内容，文件行号都append到这个string中去，在析构的时候进行打印输出这个string。
-这里面的流式设计也需要好好思考一下

@@ -1,5 +1,3 @@
-
-
 #include <memory>
 #include <chrono>
 #include <iostream>

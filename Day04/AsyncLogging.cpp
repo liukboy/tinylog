@@ -85,7 +85,7 @@ void AsyncLogging::thread_fun()
         {
             buffer_a = std::move(write_buffer_vec.back());
             write_buffer_vec.pop_back();
-            buffer_a->reset(); // reset newBuffer1
+            buffer_a->reset(); // reset buffer_a
         }
         if (!buffer_b)
         {
