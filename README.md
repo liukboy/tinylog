@@ -2,7 +2,10 @@
 A lightweight and easy-to-use C++1 logging library
 - api简单。同步输出日志，只需要关注Logger类；异步输出日志，关注AsyncLogging类即可。
 - << 流式输出。
+- 日志分级。分为DEBUG，INFO，WARN，ERROR四种级别
+- 滚动日志。跨天和日志内容满了自动新建文件。
 - 引入简单。生成库或者直接拷贝源代码，无复杂配置。
+- TODO：需要做一下性能测试。
 
 
 #### 1. 简介
@@ -56,5 +59,5 @@ int main(int argc, char *argv[])
 #### 5. TODO
 作为个人开发而言，该库提供的功能已经基本满足使用。如果需要部署在公司，那么还远远不够。
 1. Latency benchmark。与其它日志库性能比对
-2. 
+2. 支持设置日志最大保存时长，自动清理过期日志
 
