@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 ![](https://cdn.jsdelivr.net/gh/liukboy/PicBed@main/img/WX20231031-102601@2x.png)
 
 #### 4. 各个模块解析
-参考： https://liukboy.github.io/tags/log/
+[博客解析](https://liukboy.github.io/tags/log/)
 
 #### 5. TODO
 作为个人开发而言，该库提供的功能已经基本满足使用。如果需要部署在公司，那么还远远不够。
