@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 
     Logger::set_output_fun(asyncout);
     auto now = std::chrono::steady_clock::now();
-    for (int i = 0; i < 100; ++i)
+    for (int i = 0; i < 1000000; ++i)
     {
-        LOG_INFO << "Hello 12312313";
+        LOG_INFO << "qwertyuiopasdfghjklzxcvbnm1234567890" << 5 << 5.0 << 'a';
     }
     auto end = std::chrono::steady_clock::now();
     auto t = std::chrono::duration_cast<std::chrono::milliseconds>(end - now);
